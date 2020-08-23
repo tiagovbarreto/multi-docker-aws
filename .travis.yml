@@ -24,14 +24,16 @@ after_success:
   - docker push tiagovalentimbarreto/multi-nginx
   - docker push tiagovalentimbarreto/multi-server
   - docker push tiagovalentimbarreto/multi-worker
-    #deploy:
-    #provider: elasticbeanstalk
-    #region: us-west-1
-    #app: multi-docker
-    #env: MultiDocker-env
-    #bucket_name: elasticbeanstalk-us-west-1-306476627547
-    #bucket_path: docker-multi
-    #on:
-    #branch: master
-    #access_key_id: $AWS_ACCESS_KEY
-    #secret_access_key: $AWS_SECRET_KEY
+
+deploy:
+  edge: true
+  provider: elastickbeanstalk
+  region: sa-east-1
+  app: multi-docker
+  env: MultiDocker-env
+  bucket_name: elasticbeanstalk-sa-east-1-171021447365
+  bucket_path: docker-multi
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
