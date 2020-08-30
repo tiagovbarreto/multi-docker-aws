@@ -136,7 +136,7 @@ Go to your Travis Dashboard and find the project repository for the application 
 2. Create an AWS_ACCESS_KEY variable and paste your IAM access key
 3. Create an AWS_SECRET_KEY variable and paste your IAM secret key
 
-### AWS buckt in Travis
+### AWS bucket in Travis
 
 Go to AWS Management Console and use Find Services to search for S3
 
