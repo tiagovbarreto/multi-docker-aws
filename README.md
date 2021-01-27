@@ -1,5 +1,3 @@
-# multi-docker-aws
-
 # Fibonacci multi-docker-aws
 An application for calculate fibonacci
 
