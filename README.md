@@ -25,6 +25,10 @@ List of features ready and TODOs for future development
 * Calculate fibonacci value
 * List fibonacci values calculated
 
+To-do list:
+* Improve frontend web application layout and usability.
+* Apply MVC pattern
+
 ## Technologies
 * React - https://reactjs.org/
 * Node - https://nodejs.org/en/
