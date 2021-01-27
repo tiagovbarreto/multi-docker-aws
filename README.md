@@ -1,6 +1,63 @@
-# multi-docker-aws
+# Fibonacci multi-docker-aws
+An application for calculate fibonacci
 
-## Deploy setup to AWS
+## Table of contents
+* [About](#about)
+* [Inspiration](#inspiration)
+* [Features](#features)
+* [Technologies](#technologies)
+* [Architecture](#architecture)
+* [Startup](#startup)
+* [Deploy AWS](#deploy-aws)
+* [Status](#status)
+* [Contact](#contact)
+
+## About
+The intention of doing this project was to understand how to develop a multi-container docker application and deploy it in AWS.
+
+## Inspiration
+The knowledge was acquired in Stephen Grider's Docker and Kubernetes the complete guide course. The objective of the course was to develop, build and deploy Docker applications while learning production-style development workflows.
+
+Thank you a lot Stephen!!!
+
+## Features
+List of features ready and TODOs for future development
+* Calculate fibonacci value
+* List fibonacci values calculated
+
+To-do list:
+* Improve frontend web application layout and usability.
+* Apply MVC pattern
+
+## Technologies
+* React - https://reactjs.org/
+* Node - https://nodejs.org/en/
+* Postgres - https://www.postgresql.org/
+* Redis - https://redis.io/
+* PostgresSQL - https://www.postgresql.org/
+* Docker - https://www.docker.com/
+* Docker Compose - https://docs.docker.com/compose/install/
+* Travis CI - https://travis-ci.org/
+
+## Architecture
+![architecture](./diagrams/fibonacci-architecture-overview.png)
+
+## Startup
+
+#### Tools
+You must install [docker](https://www.digitalocean.com/community/tutorials/como-instalar-e-usar-o-docker-no-ubuntu-18-04-pt)  and [docker-compose](https://docs.docker.com/compose/install/) and [yarn](https://linuxize.com/post/how-to-install-yarn-on-ubuntu-18-04/).
+
+#### Clone the repository
+```sh
+git clone https://github.com/tiagovbarreto/fibonacci-multi-docker-aws.git
+```
+
+#### Start project
+```sh
+$ docker-compose up
+```
+
+## Deploy AWS
 
 ### EBS Application Creation
 
@@ -136,9 +193,15 @@ Go to your Travis Dashboard and find the project repository for the application 
 2. Create an AWS_ACCESS_KEY variable and paste your IAM access key
 3. Create an AWS_SECRET_KEY variable and paste your IAM secret key
 
-### AWS buckt in Travis
+### AWS bucket in Travis
 
 Go to AWS Management Console and use Find Services to search for S3
 
 1. Create a bucket for your region
+
+## Status
+Project is: _finished_
+
+## Contact
+Created by tiagovalentim@gmail.com - feel free to contact me!
 
