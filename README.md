@@ -1,5 +1,5 @@
 # Fibonacci multi-docker-aws
-An application for calculate fibonacci
+An application to calculate Fibonacci values
 
 ## Table of contents
 * [About](#about)
@@ -49,7 +49,7 @@ You must install [docker](https://www.digitalocean.com/community/tutorials/como-
 
 #### Clone the repository
 ```sh
-git clone https://github.com/tiagovbarreto/fibonacci-multi-docker-aws.git
+git clone https://github.com/tiagovbarreto/multi-docker-aws.git
 ```
 
 #### Start project
