@@ -3,7 +3,6 @@ An application to calculate Fibonacci values
 
 ## Table of contents
 * [About](#about)
-* [Inspiration](#inspiration)
 * [Features](#features)
 * [Technologies](#technologies)
 * [Architecture](#architecture)
@@ -14,11 +13,6 @@ An application to calculate Fibonacci values
 
 ## About
 The intention of doing this project was to understand how to develop a multi-container docker application and deploy it in AWS.
-
-## Inspiration
-The knowledge was acquired in Stephen Grider's Docker and Kubernetes the complete guide course. The objective of the course was to develop, build and deploy Docker applications while learning production-style development workflows.
-
-Thank you a lot Stephen!!!
 
 ## Features
 List of features ready and TODOs for future development
